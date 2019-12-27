@@ -1,4 +1,4 @@
-package com.springboot.savingsAccountPersonalVip.config;
+package com.springboot.savingsAccountVip.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -16,8 +16,6 @@ public class AppConfig {
 		
 		return WebClient.create("http://localhost:8012/api/personalVip");
 
-		
-	
 	}
 
 }

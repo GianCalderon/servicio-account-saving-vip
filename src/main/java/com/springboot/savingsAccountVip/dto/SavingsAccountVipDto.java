@@ -1,4 +1,4 @@
-package com.springboot.savingsAccountPersonalVip.dto;
+package com.springboot.savingsAccountVip.dto;
 
 import java.util.List;
 
@@ -7,16 +7,12 @@ import lombok.Data;
 @Data
 public class SavingsAccountVipDto {
 
-	private String numberAccount;
 	
 	private Double tea;
-
 	private String state;
-
 	private Double balance;
- 
-	private List<PersonalVipDto> holders;	
 	
+	private List<PersonalVipDto> headlines;
 	
 
 }

@@ -1,4 +1,4 @@
-package com.springboot.savingsAccountPersonalVip.document;
+package com.springboot.savingsAccountVip.document;
 
 import java.util.Date;
 import java.util.List;
@@ -24,13 +24,12 @@ public class SavingsAccountVip {
 	
 	@NotNull(message = "Account name must not be null")
 	@NotEmpty(message = "name may not be empty")
-	private String name;
+	private String nameAccount;
 	
 	@NotNull(message = "Account numberAccount must not be null")
 	@NotEmpty(message = "numberAccount may not be empty")
 	private String numberAccount;
-	
-	
+
 	@NotNull(message = "Account tea must not be null")
 	@Min(8)
 	@Max(12)
@@ -52,11 +51,11 @@ public class SavingsAccountVip {
 	
 	private List<String> idOperation; 
 
-	public SavingsAccountVip(String name, String numberAccount, Double tea, String state, Double balance,
+	public SavingsAccountVip(String nameAccount, String numberAccount, Double tea, String state, Double balance,
 			Date createDate, Date updateDate) {
 		
 	
-		this.name = name;
+		this.nameAccount = nameAccount;
 		this.numberAccount = numberAccount;
 		this.tea = tea;
 		this.state = state;

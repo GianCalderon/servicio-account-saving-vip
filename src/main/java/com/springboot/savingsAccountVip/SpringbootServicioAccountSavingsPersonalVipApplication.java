@@ -1,4 +1,4 @@
-package com.springboot.savingsAccountPersonalVip;
+package com.springboot.savingsAccountVip;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

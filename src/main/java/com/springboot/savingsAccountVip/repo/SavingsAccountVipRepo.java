@@ -1,8 +1,8 @@
-package com.springboot.savingsAccountPersonalVip.repo;
+package com.springboot.savingsAccountVip.repo;
 
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 
-import com.springboot.savingsAccountPersonalVip.document.SavingsAccountVip;
+import com.springboot.savingsAccountVip.document.SavingsAccountVip;
 
 import reactor.core.publisher.Mono;
 
